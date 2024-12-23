@@ -1,24 +1,22 @@
 {
-  
+  "name": "kronos-bot",
+  "version": "1.0.0",
+  "description": "Solana Telegram Bot",
+  "main": "kronos.js",
+  "scripts": {
+    "start": "node kronos.js",
+    "dev": "nodemon kronos.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-  
-    
-  "@solana/web3.js": "^1.98.0",
-  
-    
-  "base58-js": "^2.0.0",
-  
-    
-  "base58-universal": "^2.0.0",
-  
-    
-  "bs58": "^6.0.0",
-  
-    
-  "dotenv": "^16.4.7",
-  
-    
-  "node-telegram-bot-api": "^0.66.0"
-  
+    "@solana/web3.js": "^1.98.0",
+    "base58-js": "^2.0.0",
+    "base58-universal": "^2.0.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
